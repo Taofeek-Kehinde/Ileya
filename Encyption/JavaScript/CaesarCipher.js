@@ -9,8 +9,10 @@ for (let position = 0; position < plainTextMessage.length; position++) {
 
     let currentCharacter = plainTextMessage[position];
 
-    let encryptedCharacter = String.fromCharCode(
-        currentCharacter.charCodeAt(0) + shiftAmount
+    let encryptedCharacter = String.fromCharCode( //=> "A"
+
+        currentCharacter.charCodeAt(0) + shiftAmount // 77
+
     );
 
     encryptedMessage = encryptedMessage + encryptedCharacter;

@@ -18,7 +18,7 @@ public class CaesarCipher {
 
         for (int position = 0; position < plainTextMessage.length(); position++) {
 
-            char currentCharacter = plainTextMessage.charAt(position);
+            char currentCharacter = plainTextMessage.charAt(position); 
 
             char encryptedCharacter = (char) (currentCharacter + shiftAmount);
 
