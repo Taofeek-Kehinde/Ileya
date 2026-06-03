@@ -29,7 +29,7 @@ for student_number in range(number_of_students):
             if score_for_this_quiz < 0 or score_for_this_quiz > 100:
                 break
             else:
-                print("Invalid score! Score must be between 0 and 100. Please try again.")
+                print("Invalid score! Score must be between 0 and 100")
         total_score_for_this_student = total_score_for_this_student + score_for_this_quiz
     
     # Calculate the average score 
