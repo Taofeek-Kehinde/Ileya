@@ -1,6 +1,7 @@
 const prompt = require("prompt-sync")();
 
 let plainTextMessage = prompt("Enter a word: ");
+
 let shiftAmount = parseInt(prompt("Enter shift number: "));
 
 let encryptedMessage = "";

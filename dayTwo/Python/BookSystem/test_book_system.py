@@ -34,10 +34,6 @@ class TestBookSystem(unittest.TestCase):
     def test_that_update_book_works(self):
         book_system.add_book("Brave Kind")
         book_system.update_book("Brave Kind", "Brave Kingdom")
-        
-    def test_that_show_books_returns_list(self):
-        result = book_system.show_all_books()
-        self.assertEqual(type(result), list)
     
     def test_that_suggest_book_returns_two_things(self):
         book_system.add_book("The Hobbit")

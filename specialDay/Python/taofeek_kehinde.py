@@ -26,7 +26,7 @@ for student_number in range(number_of_students):
     for quiz_number in range(number_of_quizzes):
         while True:
             score_for_this_quiz = float(input("Quiz " + str(quiz_number + 1) + " score: "))
-            if score_for_this_quiz < 0 or score_for_this_quiz > 100:
+            if score_for_this_quiz >= 0 and score_for_this_quiz <= 100:
                 break
             else:
                 print("Invalid score! Score must be between 0 and 100")

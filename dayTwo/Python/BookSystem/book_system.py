@@ -44,5 +44,5 @@ def suggest_book():
     # Pick a random book from my list
     book = random.choice(my_books)
     # Pick random page between 1 and 100
-    page = random.randint(1, 101)
+    page = random.randint(1, 100)
     return book, page
